@@ -1,11 +1,47 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
   <title>The Mason Jar Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
+
+  <!-- div/script required for fb feed -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <nav>
+    <a href="#" class="nav-link">Home</a>
+    <a href="#" class="nav-link">About</a>
+    <a href="#" class="nav-link">Menu</a>
+    <a href="#" class="nav-link">Specials</a>
+    <a href="#" class="nav-link">Entertainment</a>
+    <a href="#" class="nav-link">Location</a>
+    <a href="#" class="nav-link">Catering/Parties</a>
+    <a href="#" class="nav-link">Special Events</a>
+  </nav>
+
+  <img src="https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/13001148_191158137937720_3998620908091018088_n.jpg?oh=53d8c768379dcd8f0442ea5f26e88635&oe=57C90CD4" alt="MasonJarLogo" class="logo">
+
+<!-- fb feed -->
+  <div class="fb-page" data-href="https://www.facebook.com/masonjartapandgrill" data-tabs="timeline" data-width="500px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/masonjartapandgrill"><a href="https://www.facebook.com/masonjartapandgrill">Mason Jar Tap &amp; Grill</a></blockquote></div></div>
+
+  <strong class="phone-number">
+    Take Out or Pick-up - <a href="tel:+1-734-854-8737">734-854-8737</a>
+  </strong>
+
+  <footer>
+    &copy; 2016 by The Mason Jar. All rights reserved.
+  </footer>
 
 </body>
 
